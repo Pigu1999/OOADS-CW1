@@ -1,0 +1,10 @@
+Student Number: 1803744
+Student Name: Dylan Johns
+Course Code: CM2307
+
+The algorithm I have used for determining if two places are connected by a path with charging station is the Depth First Preorder
+Traversal. This algorithm first visits the node it is currently at, then it visits the left subtree and then the right subtree.
+I have set it so that it can only visit nodes that have a charging station (unless it's the final vertex). Depth First Preorder
+Traversal has a worst case time complexity of O(v+e). This is because it will only visit each vertex once and only explore its edges
+once while there, so if it's the worst case and the final vertex is where the destination is then it would only have visited each
+vertex and edge once. 
